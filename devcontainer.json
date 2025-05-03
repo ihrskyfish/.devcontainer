@@ -53,7 +53,10 @@
 				"vscjava.vscode-gradle",
 				"roonie007.hide-files",
 				"vscjava.vscode-java-pack",
-				"baincd.custom-auto-fold"
+				"baincd.custom-auto-fold",
+				"chrisbibby.hide-git-ignored",
+				"cweijan.vscode-mysql-client2",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	}

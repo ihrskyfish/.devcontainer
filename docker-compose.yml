@@ -39,8 +39,8 @@ services:
         published: 3306
         protocol: tcp
         mode: host
-    volumes:
-      - mysql-data:/var/lib/mysql    # 持久化数据
+    # volumes:
+    #   - mysql-data:/var/lib/mysql    # 持久化数据
     networks:
       - dev0app-network
 
@@ -60,8 +60,8 @@ services:
         published: 6379
         protocol: tcp
         mode: host
-    volumes:
-      - redis-data:/data             # 持久化数据
+    # volumes:
+    #   - redis-data:/data             # 持久化数据
     networks:
       - dev0app-network
 
@@ -80,8 +80,8 @@ services:
         published: 9000
         protocol: tcp
         mode: host
-    volumes:
-      - minio-data:/data             # 持久化数据
+    # volumes:
+    #   - minio-data:/data             # 持久化数据
     command: server /data
     networks:
       - dev0app-network
